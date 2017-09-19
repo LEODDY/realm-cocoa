@@ -20,9 +20,6 @@ x.x.x Release notes (yyyy-MM-dd)
   `LinkingObjects` have had their generic type parameter changed from `T` to
   `Element`).
 * `RealmOptional`'s generic type parameter has been changed from `T` to `Value`.
-* `List` now conforms to `MutableCollection` instead of `RangeReplaceableCollection`.
-  The empty collection initializer has been removed. Default implementations of
-  range replaceable collection methods that make sense for `List` have been added.
 * Starting with Swift 4, `List` now conforms to `MutableCollection` instead of
   `RangeReplaceableCollection`. For Swift 4, the empty collection initializer has been
   removed, and default implementations of range replaceable collection methods that
